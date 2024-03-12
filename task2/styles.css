@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.nav{
+    margin-top: 0px;
+    background-color: #95d8f0;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+ .nav ul{
+    display: flex;
+    
+    justify-content: center;
+    /* gap: 40px; */
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 2px;
+            margin: 20px;
+            /* border: 1px solid black; */
+            border-radius: 3px;
+            margin-right: 40px;
+            color: 2b295c;
+}
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: #8bd6f1;
+    color: #fff;
+    height: 403px;
+    
+}
+.profile{
+    height: 100px;
+}
+
+
+img {
+    
+    width: 220px;
+    height: 200px;
+    float: right;
+    margin-right: 450px;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+
+
+
+.profile h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #2b295c;
+    margin-right: 20px;
+    width: 300px;
+    float: left;
+
+}
+
+
+
+ .left{
+    /* text-align: center; */
+    margin: 20px 0;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 19px;
+    clear: left;
+    color: #2b295c;
+}
+.profile .design
+{
+   float: right;
+  
+   width: 290px;
+   /* padding: 5px; */
+   font-size: 20px;
+   color: #2b295c;
+}
+   
+    
+
+
+.about {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+.project1{
+margin-left: 8px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project p {
+    color: #555;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Existing CSS styles */
+
+/* New CSS styles for additional sections */
+
+.skills {
+    padding: 50px 0;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.testimonials .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* New CSS styles for About Me and Projects sections */
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-left:420px;
+    animation: ani 5s ease-in-out;
+}
+
+/* New Features CSS */
+
+.skills {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.testimonials {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonial {
+    max-width: 500px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact {
+    background-color: #8bd6f1;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact li a:hover {
+    color: #f2f2f2;
+}
+
+@keyframes ani {
+    from {
+        transform: translateX(30vw);
+        
+    }
+
+    to {
+        transform: translateX(0vw);
+       
+        ;
+    }
+}
