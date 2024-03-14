@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+#converter {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 120px;
+}
+
+.conversion-arrow {
+    font-size: 20px;
+    line-height: 40px;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: box-shadow 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    /* Initial box-shadow */
+}
+
+button:hover {
+     /* transform: translateX(-10px); */
+     transform: rotateX(20deg) rotateY(20deg);
+    
+     /* Move button slightly downward */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a stronger box-shadow to make the button appear to come forward */
+}
+
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    #converter {
+        width: 50%;
+    }
+    input, select, button {
+        width: 50%;
+    }
+}
